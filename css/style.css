@@ -1,0 +1,327 @@
+@import url(reset.css);
+
+body {
+    font-family: Tahoma, sans-serif;
+    background: #eeeeee;
+}
+
+a {
+    color: #1c56a0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+
+.wrapper {
+    max-width: 1280px; 
+    min-width: 980px;
+    margin: 0 auto;
+}
+    
+/*Шапка*/    
+
+.header-main {
+    background-image: url(../images/headerBg.jpg); 
+    background-repeat: repeat-x; 
+    position: relative;
+}
+
+header {
+    height: 181px; 
+    background-image: url(../images/headerBgRoad.png); 
+    background-repeat: no-repeat;
+}
+
+.ico {
+    position:absolute; 
+    top: 34px;
+    left: 18px;
+}
+
+.ico li {
+    padding-bottom: 21px;
+}
+
+.headerForm {
+    position:absolute; 
+    background-color: #eeeeee; 
+    overflow: hidden;
+    padding: 10px 0px 10px 30px; 
+    width: 290px;
+    border-radius: 0 0 0 10px;
+    right: 0; 
+    top: 0;
+}
+
+.headerForm input {
+    float: left;
+}
+
+.search {
+    background-color: #ffffff; 
+    border: 1px solid #a5acb2;
+    height: 18px;
+    margin: 0 12px 0 0; 
+    width: 135px;
+}
+
+nav {
+    float: right; 
+    margin: 90px 0 0 0;
+    border-bottom: 3px solid #93b0c8;
+    padding: 0 70px 5px 0;
+}
+
+nav li {
+    text-transform: uppercase;
+    float: left; 
+    font: bold 15px "Trebuchet MS";
+    border-left: 1px solid #ebf0f5;
+    padding: 0 10px 0 10px; 
+    line-height: 1;
+}
+
+nav li:first-child {
+    float: left;
+    font: bold 15px "Trebuchet MS";
+    border-left: none;
+    padding: 0 10px 0 0;
+    line-height: 1;
+}
+
+nav li a {
+color: #ebf0f5; 
+text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+/*Начало блока контента*/
+
+.content-under {
+    background: #ffffff; 
+    background-image: url(../images/contentBgUnder.png); 
+    background-repeat: repeat-x; 
+}
+
+.content-main {
+    width: 100%; 
+    background-image: url(../images/contentBg.png);
+    background-repeat: no-repeat; 
+    background-position: top right;
+}
+   
+/*Левая колонка*/
+    
+.content {
+    vertical-align: top; 
+    font-size: 12px; 
+    padding: 0 30px 0 30px;
+}
+
+.content p {
+    margin-bottom: 20px; 
+    color: #313131;
+    text-align: justify;
+}
+
+.content h1 {
+    font: 24px "Trebuchet MS";
+    color: #1c56a0;
+    margin-bottom: 10px;
+}
+
+.logo {
+    text-align: right; 
+    padding-top: 10px;
+}
+
+.print {
+    text-align: right!important;
+    padding-bottom: 30px;
+}
+
+.print a{
+    font: 10px "Trebuchet MS"; 
+    color: #1c56a0;
+}
+
+.print a:hover {
+    text-decoration: none;
+}
+    
+.print img {
+    position: relative;
+    top: 7px; 
+    margin: 0 10px 0 10px;
+}
+
+/*Правая колонка*/
+    
+.right-bar {
+    width: 470px; 
+    vertical-align: top;
+    padding: 20px 30px 0 0;
+}
+    
+.right-zag {
+    background-image: url(../images/rightZagBg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 20px 0 10px 20px;
+    margin: -70px 0 15px 0;
+    z-index: 100; 
+    position: relative;
+    font: 18px "Trebuchet MS"; 
+    color: #1c56a0; 
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+    
+.product-main {
+    overflow: hidden; 
+    margin: 0 30px 20px 0;
+}
+    
+.product-main img {
+    float: left;
+    margin: 0 10px;
+}
+
+.product-main h2 {
+    font-size: 11px;
+    font-weight: bold;
+    color: #1c56a0;
+}
+    
+.product-main h2 a {
+    color: #1c56a0;
+}
+    
+.product-main h2 a:hover {
+    text-decoration: none;
+}
+    
+.product-main p {
+    font-size: 10px;
+    color: #313131;
+    line-height: 1.1;
+    margin: 0 0 0 190px;
+}
+    
+.all-product {
+    font-size: 10px;
+    font-weight: bold;
+    color: #1c56a0;
+    text-align: right;
+    border-top: 1px solid #c9d7e8;
+    margin: 0 30px 0 10px;
+}
+    
+.all-product a {
+    color: #1c56a0;
+}
+    
+.all-product a:hover {
+    text-decoration: none;
+}
+    
+.dot {
+    margin-right: 5px;
+}
+      
+/*Блок контактов в правой колонке*/ 
+ 
+.right-bot {
+    background-image: url(../images/contactBg.jpg); 
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    vertical-align: bottom; 
+    padding: 0 30px 0 0;
+}
+        
+.contact {
+    text-align: right; 
+    margin: 25px 30px 0 0;
+    padding: 0 0 228px 0; 
+    position: relative;
+}
+
+.contact h3 {
+    font: bold 12px "Trebuchet MS", sans-serif;
+    color: #1c56a0;
+    margin: 0 0 8px 0; 
+    text-transform: uppercase;
+}
+
+.contact p {
+    font-size: 11px;
+    font-weight: bold;
+    color: #3d3d3d;
+    margin: 24px 0 0 0;
+}
+
+.contact p span {
+    font-size: 12px; 
+    color: #1c56a0;
+}
+
+.contact a {
+    color: #1c56a0;
+}
+
+.contact a:hover {
+    text-decoration: none;
+}
+
+.toper {
+    position: absolute;
+    bottom: 5px;
+    right: -20px;
+}
+
+/*Конец блока с контентом. Начало футера*/
+
+footer {
+    background: #eeeeee;
+    overflow: hidden;
+}
+
+.atstar {
+    float: left; 
+    margin: 35px 0 25px 30px;
+}
+
+.copy {
+    float: left;
+    font-size: 11px;
+    text-align: right;
+    color: #6d6e71;
+    margin: 35px 0 0 28%;
+}
+
+.copy a {
+    color: #1c56a0;
+}
+
+.copy a:hover {
+    text-decoration: none;
+}
+
+.link {
+    float: right; 
+    margin: 20px 80px 10px 0;
+}
+
+.link img {
+    margin: 0 5px 5px 0;
+}
+
+/*Конец футера*/
